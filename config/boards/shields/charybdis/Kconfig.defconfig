@@ -1,3 +1,12 @@
+if SHIELD_CHARYBDIS_RIGHT
+
+default "Charybdis"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
 if SHIELD_CHARYBDIS_LEFT || SHIELD_CHARYBDIS_RIGHT
 
 config ZMK_SPLIT
@@ -5,5 +14,6 @@ config ZMK_SPLIT
 	
 
 endif
+
 
 
