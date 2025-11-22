@@ -102,13 +102,14 @@
         Game {
             label = "Game";
             bindings = <
-&rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_TOG    &trans  &trans  &trans  &trans  &trans  &trans
-&rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                          &trans  &trans  &trans  &trans  &trans  &trans
+&&trans  &trans  &trans  &trans  &trans  &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &trans           &trans             &trans  &kp F1  &trans  &trans  &trans  &to 0
                                                    &trans           &trans           &none              &none   &trans  &trans
             >;
         };
     };
 };
+
 
 
