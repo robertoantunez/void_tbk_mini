@@ -6,6 +6,14 @@
 
 #include "charybdis.dtsi"
 
+&default_transform {
+	col-offset = <6>;
+};
+
+&five_column_transform {
+	col-offset = <5>;
+};
+
 &kscan0 {
 	col-gpios
 		= <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -24,3 +32,4 @@ row-gpios
 		;
 
 };
+
